@@ -2,8 +2,23 @@
 <html>
     <head>
         <title>Auto Sound Diagnostics</title>
+        <link href="style.css" type="text/css" rel="stylesheet" />
     </head>
     <body>
-        
+        <h1>Auto Sound Diagnostics</h1>
+        <hr />
+        <p>This web app will allow you to record sound that your car is making and diagnose.</p>
+        <hr />
+        <!-- Web app will go here-->
+        <div id="applet">
+            <fieldset>
+                <legend>Auto Diagnostics</legend>
+                <form action="http://www.example.com/upload.php" method="post">
+                    <p>Upload the noise your car is making in MP3 format:</p>
+                    <input type="file" name="user-sound"><br />
+                    <input type="submit" value="Upload" />
+                </form>
+            </fieldset>
+        </div>
     </body>
 </html>
